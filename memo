@@ -1,0 +1,21 @@
+1. 安裝 beautifulsoup
+  reference:
+    http://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup
+
+2. 要怎麼存放文章
+  - 考量: 文章內容、推文會變動 (未來也許需要有更新的機制?)
+  - 作法: 一個檔案放一篇文章
+  - 檔名: <datetime>_<title>_<autuor>
+
+3. Make the soup
+  reference:
+    (1) http://kilfu0701.blogspot.tw/2011/03/python-beautifulsoup.html
+    (2) http://www.sixfeetup.com/blog/an-introduction-to-beautifulsoup
+
+4. UnicodeEncodeError: 'ascii' codec can't encode characters in position 0-5: ordinal not in range(128)
+  reference:
+    http://www.sixfeetup.com/blog/an-introduction-to-beautifulsoup
+
+5. 若 div 裡包含其它 element 及 string, 如何抓到 string?
+  reference:
+    http://www.crummy.com/software/BeautifulSoup/bs4/doc/#strings-and-stripped-strings
